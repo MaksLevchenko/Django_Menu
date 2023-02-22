@@ -1,0 +1,12 @@
+
+{% extends 'menu.html' %}
+
+{% block title %} Страница меню. {% endblock %}
+
+{% load draw_menu %}
+{% block content %}
+
+    {% draw_menu 'Главное меню' %}
+
+
+{% endblock %}
