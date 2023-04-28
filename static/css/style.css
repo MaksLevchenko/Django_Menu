@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: #0E2231;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
