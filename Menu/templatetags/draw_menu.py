@@ -29,8 +29,6 @@ def draw_menu(context, menu):
 
     result_dict['menu'] = menu
     result_dict['other_querystring'] = get_querystring(context, menu)
-
-    print(result_dict)
     return result_dict
 
 
